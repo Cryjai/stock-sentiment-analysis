@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-hk">
+<head>
+    <meta charset="UTF-8">
+    <title>AhCry Finance - 股票新聞情緒分析</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 1000px; margin: 0 auto; padding: 0; }
+        .navbar { background: #1a1a2e; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 24px; font-weight: bold; }
+        .container { padding: 20px; }
+        h1 { color: #1a1a2e; }
+        p { font-size: 18px; }
+        img { max-width: 100%; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #1a1a2e; color: white; }
+        .footer { background: #1a1a2e; color: white; text-align: center; padding: 15px; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">AhCry Finance</div>
+        <div>AI 財經助手</div>
+    </div>
+    <div class="container">
+        <h1>股票新聞情緒分析</h1>
+        <p>用 AI 分析市場情緒，早著先機！</p>
+        <img src="sentiment_analysis.png" alt="情緒分析圖">
+        <img src="sentiment_pie.png" alt="情緒分布餅圖">
+        <p>（溫馨提示：本分析僅供參考，投資有風險，入市需謹慎！）</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>新聞標題</th>
+                    <th>情緒分數</th>
+                </tr>
+            </thead>
+            <tbody>
+                {table_content}
+            </tbody>
+        </table>
+        <p>AhCry Finance - 型到震，你個friend睇到一定以為你係AI股神！</p>
+    </div>
+    <div class="footer">
+        © 2025 AhCrySoLengLui Finance. All rights reserved.
+    </div>
+</body>
+</html>
