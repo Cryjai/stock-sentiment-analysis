@@ -1,0 +1,17 @@
+requests
+beautifulsoup4
+textblob
+pandas
+matplotlib
+numpy
+streamlit
+yfinance
+plotly
+pandas
+numpy
+scikit-learn
+Pillow
+nltk
+transformers
+openai
+fpdf
